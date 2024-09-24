@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package it20c_erickrubin;
+package atongLO1niSir;
 
 /**
  *
  * @author Erick James Rubin
  */
-public class It20c_ErickRubin {
+public class LO1ACTIVITY {
 
     /**
      * @param args the command line arguments
