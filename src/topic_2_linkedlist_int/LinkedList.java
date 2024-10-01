@@ -1,4 +1,4 @@
-package LinkedListInt;
+package topic_2_linkedlist_int;
 
 public class LinkedList {
     private Node head; 
