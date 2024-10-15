@@ -1,4 +1,5 @@
 package topic_4_queue;
+import java.util.LinkedList;
 
 public class Queue {
     private LinkedList<Customer> customers;
@@ -29,6 +30,17 @@ public class Queue {
                 System.out.print(customer.getName() + " | ");
             }
             System.out.println();
+        }
+    }
+    
+    public Customer dequeue() {
+        if (!isEmpty()) {
+            Customer customer = customers.removeFirst();
+            System.out.println(customer.getName() + " has been served.");
+            return customer;
+        } else {
+            System.out.println("The queue is empty.");
+            return null;
         }
     }
 }
