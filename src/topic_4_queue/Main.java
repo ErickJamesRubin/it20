@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package topic_4_queue;
+import java.util.Scanner;
 
-/**
- *
- * @author Erick James Rubin
- */
 public class Main {
-    
+    public static void main(String[] args) {
+	Queue customerQueue = new Queue();
+        Scanner scanner = new Scanner(System.in);	
+		 
+    }
 }
