@@ -8,10 +8,27 @@ public class ArraySum {
             return 0;
         }
 
-        // Recursive case: sum of the last element and the sum of the rest
         return arr[n - 1] + sum(arr, n - 1);
     }
     
+        public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		ArraySum calculator = new ArraySum();
+        
+		System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+        
+        System.out.println("The size of the array is: " + size);
+        System.out.println();
+        
+        int[] numbers = new int[size];
+        
+        //Iterate throughout the array size
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < size; i++) {
+            numbers[i] = scanner.nextInt(); 
+        }
     
-    
+        }
 }
